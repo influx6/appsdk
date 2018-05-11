@@ -23,7 +23,15 @@ DONT reinvent the wheel !!!!
 - gopherjs app using webview. Best practice is clearly this:
 	- https://github.com/dave/jsgo
 	- https://github.com/dave/play
+	- Material Design for it: https://github.com/agamigo/vecty-material
+		- SO you match the Fluuter Material Design.
+	- DSL of html to vecty: https://github.com/dave/html2vecty
+		- Because you can then generate from golang on Web, Desktop and Flutter using CMS pattern. Long story...
 
+- Flux. You need a cross platform flux engine
+	- Really heavily related to the DSL / CMS aspects.
+	- DRY. Golang drives the Flutter and Web, Desktop GUi using data driven configuration. 
+	- This gets you maybe 90% code sharing between Flutter, Web and Desktop.
 
 ## Mage 
 
