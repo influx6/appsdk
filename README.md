@@ -28,10 +28,13 @@ DONT reinvent the wheel !!!!
 	- DSL of html to vecty: https://github.com/dave/html2vecty
 		- Because you can then generate from golang on Web, Desktop and Flutter using CMS pattern. Long story...
 
-- Flux. You need a cross platform flux engine
+- Flux. You need a cross platform flux engine.
+	- Shared between Flutter, Web and Desktop.
 	- Really heavily related to the DSL / CMS aspects.
 	- DRY. Golang drives the Flutter and Web, Desktop GUi using data driven configuration. 
 	- This gets you maybe 90% code sharing between Flutter, Web and Desktop.
+
+
 
 ## Mage 
 
