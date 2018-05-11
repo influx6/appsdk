@@ -16,12 +16,16 @@ Which ones:
 
 ## Mage 
 
+https://github.com/magefile/mage
+
 why ?
 
 - You need your build CLI to be cross platform 100%
+- you can write steps as golang packages that you can import. Its nice.
+- Many out there that others are using: https://github.com/search?l=Go&q=magefile%2Fmage&type=Code
 
 
-mage-dep-os
+mage-dep-os-pkg
 
 - you need your OSX and window setup in a repeatable indempotent way.
 - This then is make part of a Mage package
