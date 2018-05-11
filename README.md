@@ -17,6 +17,8 @@ DONT reinvent the wheel !!!!
 	- https://github.com/renatoathaydes/gohash_mobile
 	- https://github.com/renatoathaydes/go-hash
 	- https://github.com/renatoathaydes/gohash_mobile_app
+	- Instructions !!!!!
+		- https://sites.google.com/a/athaydes.com/renato-athaydes/posts/buildingamobilefrontendforagoapplicationusingflutter
 
 - gopherjs app using webview. Best practice is clearly this:
 	- https://github.com/dave/jsgo
@@ -38,6 +40,7 @@ mage-base
 
 - you need a base because mage is only one layer.
 - this one is quite a good helper: https://github.com/zvelo/zmage
+- example: https://github.com/zvelo/gopkgredir/blob/master/magefile.go
 
 
 mage-dep-os-pkg
@@ -48,11 +51,15 @@ mage-dep-os-pkg
 
 mage-flutter-pkg
 
-- wraps the flutter cli, and adds soem extra stuff needed
+- wraps the flutter cli, and adds some extra stuff needed.
 
 mage-web-pkg
 
 - For now just wrap things as you need.
+
+mage-desktop-pkg
+
+- Packing and Signing for Windows and Mac
 
 mage-deploy
 
