@@ -32,7 +32,12 @@ why ?
 - You need your build CLI to be cross platform 100%
 - you can write steps as golang packages that you can import. Its nice.
 - Many out there that others are using: https://github.com/search?l=Go&q=magefile%2Fmage&type=Code
+- Mage can run in interpretted or non interpretted mode. You need both.
 
+mage-base
+
+- you need a base because mage is only one layer.
+- this one is quite a good helper: https://github.com/zvelo/zmage
 
 
 mage-dep-os-pkg
